@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url("trianglify.png") ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "DejaVu Sans Condensed" ;
+}
+a{
+    text-decoration: none;
+}
+/*-----------------------------------*/
+/*-------Body*/
+/*-----------------------------------*/
+.contenedor{
+    width: 45%;
+    max-width: 900px;
+    margin: 8px;
+    padding: 10px;
+    left: 10px;
+    height: 100%;
+    display: inline-block;
+    align-items: center;
+}
+.tarjeta{
+    background-color: #ffffff;
+    margin: 40px 8%;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+}
+/*-----------------------------------*/
+/*-------Slider Banner images*/
+/*-----------------------------------*/
+.slide_banner {
+    overflow: hidden;
+    height: 300px;
+    z-index: 1000;
+    position: relative;
+}
+.slide_banner .banner{
+    position: relative;
+    width: 100%;
+
+}
+.slide_banner .banner img{
+    vertical-align: top;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+/*-----------------------------------*/
+/*-------Flechas slide banner */
+/*-----------------------------------*/
+.slide_banner .flecha-banner {
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(0,0,0,.2);
+    position: absolute;
+    height: 50%;
+    z-index: 1100;
+}
+.slide_banner .flecha-banner:hover{
+    color: rgba(0,0,0,.5);
+}
+.slide_banner .anterior{
+    left: 20px;
+}
+.slide_banner .siguiente{
+    right: 20px;
+}
+/*-----------------------------------*/
+/*-------Flechas slide de info */
+/*-----------------------------------*/
+.slide_banner .flecha-info {
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(0,0,0,.2);
+    position: absolute;
+    height: 50%;
+    z-index: 1100;
+}
+.slide_banner .flecha-info:hover{
+    color: rgba(0,0,0,.5);
+}
+.slide_banner .anterior{
+    left: 20px;
+}
+.slide_banner .siguiente{
+    right: 20px;
+}
+/*-----------------------------------*/
+/*-------Slider Info */
+/*-----------------------------------*/
+.slide_info{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    z-index: 1000;
+    position: relative;
+}
+/* Section de info Q'Cheque */
+.slide_info .informacion{
+    width: 100%;
+}
+.slide_info .informacion article{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slide_info .informacion article .slide{
+    background: #ffffff;
+    width: 100%;
+    left: 100%;
+    padding: 20px 80px ;
+}
+.slide_info .flecha-info{
+    font-size: 35px;
+    line-height: 35px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+.slide_info .flecha-info:hover{
+    color: #6ed279;
+}
+.slide_info .flecha-info.anterior{
+    left: 20px;
+}
+.slide_info .flecha-info.siguiente{
+    right: 20px;
+}
+/*Estilo del slide Infos*/
+.slide_info .informacion .nombre{
+    color: #444;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-bottom: 16px;
+ }
+.slide_info .informacion .explicacion{
+    color: #444;
+    font-size: 25px;
+    line-height: 25px;
+}
+.slide_info .informacion .subtitulado{
+    color: gray;
+    font-size: 23px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.slide_info .informacion .texto{
+    color: #8d8d8d;
+    font-size: 18px;
+    line-height: 18px;
+}
+/*-----------------------------------*/
+/*-------BOtones slider Info Redes */
+/*-----------------------------------*/
+.slide_info .botones {
+    width: 100%;
+}
+.slide_info .botones span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: #e6e6e6;
+}
+.slide_info .botones .active{/*Este es para que se active el color para cuando la pagina este en el boton*/
+    background: gray;
+}
+.slide_info .botones span:hover{/*Se sombreara cuando el puntero este encima del boton */
+    background: #6ed279;
+}
+/* Redes Sociales */
+
+.redes_sociales{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.redes_sociales a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    padding: 14px 0;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.redes_sociales .facebook{
+    background: #3b5998;
+}
+.redes_sociales .twitter{
+    background: #55acee;
+}
