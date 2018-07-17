@@ -9,7 +9,7 @@
 /*-------Body------------------------*/
 /*-----------------------------------*/
 body{
-    background: url("trianglify.png") ;
+    background: url("fondo otro.jpg") ;
     background-size: cover;
     background-attachment: fixed;
     font-family: "DejaVu Sans Condensed" ;
@@ -22,13 +22,13 @@ body{
 #header img{
     width: 100%;
 }
-/*#footer{
+#footer{
     position: relative;
-    height: 30px;
+    height: 40px;
     width: 100%;
     bottom: 0;
     background-color: #3b5998;
-}*/
+}
 .contenedor{
      width: 30%;
      max-width: 900px;
