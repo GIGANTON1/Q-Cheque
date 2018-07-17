@@ -30,9 +30,59 @@ body{
     background-color: #3b5998;
 }*/
 .contenedor{
+     width: 30%;
+     max-width: 900px;
+     margin: 131px 0;
+     padding: 30px;
+     left: 5px;
+     height: 100%;
+     display: inline-block;
+ }
+
+.contenedor1{
     width: 30%;
     max-width: 900px;
     margin: 131px 0;
+    padding: 30px;
+    left: 5px;
+    height: 100%;
+    display: inline-block;
+}
+
+.contenedor2{
+    width: 30%;
+    max-width: 900px;
+    margin: 131px 0;
+    padding: 30px;
+    left: 5px;
+    height: 10px;
+    display: inline-block;
+}
+
+.contenedor3{
+    width: 30%;
+    max-width: 900px;
+    margin: 0;
+    padding: 30px;
+    left: 5px;
+    height: 100%;
+    display: inline-block;
+}
+
+.contenedor4{
+    width: 30%;
+    max-width: 900px;
+    margin: 0;
+    padding: 30px;
+    left: 5px;
+    height: 100%;
+    display: inline-block;
+}
+
+.contenedor5{
+    width: 30%;
+    max-width: 900px;
+    margin: 0;
     padding: 30px;
     left: 5px;
     height: 100%;
@@ -96,7 +146,7 @@ body{
 }*/
 
 /*Final Botones de Menu*/
-.tarjeta{
+.tarjeta1{
     background-color: #ffffff;
     border-radius: 10px;
     margin: 40px 8%;
@@ -104,6 +154,7 @@ body{
     z-index: 1000;
     text-align: center;
     width: 100%;
+
 }
 /*-----------------------------------*/
 /*-------Slider Banner images*/
