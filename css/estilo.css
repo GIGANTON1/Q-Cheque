@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DejaVu Sans Condensed";
+    background-color: #EEEEEE;
+}
+
+#header {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#header img {
+    width: 100%;
+}
+
+#footer {
+    position: fixed;
+    position: relative;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    background-color: #3b5998;
+}
+
+.contenedor {
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.tarjeta {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 40px 8%;
+    overflow: hidden;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+
+}
+
+/*-----------------------------------*/
+/*-------Slider Banner images*/
+/*-----------------------------------*/
+.slide_banner {
+    overflow: hidden;
+    height: 300px;
+    z-index: 1000;
+    position: relative;
+}
+
+.slide_banner .banner {
+    position: relative;
+    width: 100%;
+
+}
+
+.slide_banner .banner img {
+    vertical-align: top;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+
+/*-----------------------------------*/
+
+.slide_info {
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    z-index: 1000;
+    position: relative;
+}
+
+/* Section de info Q'Cheque */
+.slide_info .informacion {
+    width: 100%;
+}
+
+.slide_info .informacion article {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide_info .informacion article .slide {
+    background: #ffffff;
+    width: 100%;
+    left: 100%;
+    padding: 20px 80px;
+}
+
+.slide_info .flecha-info {
+    font-size: 35px;
+    line-height: 35px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+
+.slide_info .flecha-info:hover {
+    color: #6ed279;
+}
+
+.slide_info .flecha-info.anterior {
+    left: 20px;
+}
+
+.slide_info .flecha-info.siguiente {
+    right: 20px;
+}
+
+/*Estilo del slide Infos*/
+.slide_info .informacion .nombre {
+    color: #444;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.slide_info .informacion .explicacion {
+    color: #444;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.slide_info .informacion .subtitulado {
+    color: gray;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.slide_info .informacion .texto {
+    color: #8d8d8d;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+button{
+    padding: 10px;
+}
